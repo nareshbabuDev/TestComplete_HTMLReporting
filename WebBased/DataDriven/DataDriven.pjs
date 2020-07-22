@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{0AD80042-4045-4024-95D4-70036B5DA3F2}">
+	<children>
+		<child name="ExcelDrivenRun" key="{43E3F49F-DE7A-464D-BA83-FC9336023A75}" path="ExcelDrivenRun\ExcelDrivenRun.mds" />
+	</children>
+	<testItems key="{1BD207F4-95C8-4C8D-AD3A-59E0B9A3899C}">
+		<children>
+			<testItem key="{43E3F49F-DE7A-464D-BA83-FC9336023A75}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{40C58DE1-19D0-44EA-ADAD-1561C34E6267}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{A221C6E9-E217-4AA0-B741-46B50058C057}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

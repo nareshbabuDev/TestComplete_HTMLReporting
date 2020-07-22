@@ -1,0 +1,18 @@
+﻿//USEUNIT Logger
+function login()
+{
+  let browser = Aliases.browser;
+  Browsers.Item(btIExplorer).Run();
+  Browsers.Item(btIExplorer).Navigate("https://opensource-demo.orangehrmlive.com/index.php/dashboard");
+  let page = browser.pageOrangehrm;
+  let form = page.formFrmlogin;
+  let textbox = form.textboxTxtusername;
+  textbox.SetText("Admin");
+  Logger.fn_createteststep("DONE","Set UserName");
+  form.passwordboxTxtpassword.SetText(Project.Variables.Password1);
+  Logger.fn_createteststep("DONE","Set Password");
+  form.submitbuttonLogin.ClickButton();
+  page.Wait();
+  Logger.fn_createteststep("PASS","Logged by User:"+Project.Variables.Username);
+}
+
